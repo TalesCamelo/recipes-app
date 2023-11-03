@@ -1,0 +1,16 @@
+.footerCss {
+  align-self: flex-end;
+  background-color: #49a54c;
+  bottom: 0;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.select-type-icon {
+  background-color: transparent;
+  border-color: transparent;
+}

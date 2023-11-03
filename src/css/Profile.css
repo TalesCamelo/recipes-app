@@ -1,0 +1,32 @@
+.usr-name {
+  color: #49a54c;
+  margin-left: 5px;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  width: 100vi;
+}
+
+.profile-buttons {
+  background-color: #49a54c;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  margin: 2% 5%;
+  padding: 14px 20px;
+}
+
+.profile-buttons:disabled {
+  background-color: #49a54c;
+  border: none;
+  border-radius: 15px;
+  color: rgb(219, 219, 219);
+  font-size: 18px;
+  margin: 2% 5%;
+  opacity: 0.65;
+  padding: 14px 20px;
+}

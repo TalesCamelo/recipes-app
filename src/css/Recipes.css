@@ -1,0 +1,17 @@
+.scratched {
+  text-decoration: line-through solid black;
+}
+
+.ingredients {
+  display: block;
+}
+
+.instructions {
+  margin-left: 2%;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}

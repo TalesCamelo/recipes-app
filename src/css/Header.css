@@ -1,0 +1,95 @@
+.not-title {
+  color: #3de60f;
+  display: none;
+}
+
+.profile-btn {
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.search-btn {
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: 70%;
+  margin-top: 2%;
+}
+
+.radioButtons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text-bar {
+  margin-left: 13%;
+}
+
+.radio-input {
+  cursor: pointer;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 12px;
+  padding-left: 35px;
+  position: relative;
+  user-select: none;
+}
+
+.radio-input input {
+  cursor: pointer;
+  position: absolute;
+}
+
+.radiocheck {
+  background-color: #eee;
+  height: 16px;
+  left: 0;
+  margin-left: 12px;
+  margin-top: 5px;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.radio-input:hover input ~ .radiocheck {
+  background-color: #ccc;
+}
+
+.radio-input:checked input ~ .radiocheck {
+  background-color: #2196f3;
+}
+
+.radiocheck:after {
+  content: '';
+  display: none;
+  position: absolute;
+}
+
+.radio-input .radiocheck:after {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  height: 10px;
+  left: 9px;
+  top: 5px;
+  transform: rotate(45deg);
+  width: 5px;
+}
+
+.radio-input:checked input ~ .radiocheck:after {
+  display: block;
+}
+
+.src-btn {
+  background-color: #49a54c;
+  border: none;
+  border-radius: 5%;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 60%;
+  margin-top: -3%;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+}

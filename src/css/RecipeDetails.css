@@ -1,0 +1,68 @@
+.recomendImg {
+  height: 100px;
+  width: 180px;
+}
+
+h1, h5 {
+  color: #49a54c;
+  margin-left: 5px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header button {
+  display: flex;
+  width: 45px;
+}
+
+.share-btn {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.favorite-btn {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.video-src {
+  margin-left: 9%;
+}
+
+.scroll {
+  display: flex;
+}
+
+.scroll2 {
+  margin-bottom: 50px;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.btn-details {
+  bottom: 0;
+  position: fixed;
+}
+
+.hidden {
+  bottom: 0;
+  display: none;
+  position: fixed;
+}
+
+.detailsImg {
+  border-radius: 7px;
+  margin: 2%;
+}
+
+.instuctions {
+  margin-left: 3px;
+  width: 360px;
+}
+
+/* .btn-share {
+  width: 150px;
+} */

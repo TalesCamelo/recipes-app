@@ -1,0 +1,24 @@
+.btn-favo {
+  background-color: #49a54c;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-top: 12px;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header-btns {
+  display: flex;
+  justify-content: space-evenly;
+  width: 360px;
+}
+
+.title-favorite-rec {
+  color: #49a54c;
+  margin-left: 20%;
+}
