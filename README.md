@@ -23,8 +23,9 @@ Front-end:
 ## Installing Dependencies
 
 > Frontend
+* At the root of the project:
+
 ```bash
-At the root of the project:
 npm install
 ``` 
 ## Running application
