@@ -25,9 +25,9 @@ Front-end:
 > Frontend
 * At the root of the project:
 
-```bash
-npm install
-``` 
+  ```bash
+    npm install
+  ``` 
 ## Running application
 
 * To run the application:
